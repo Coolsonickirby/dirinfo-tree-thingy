@@ -1,4 +1,4 @@
-use fltk::{app, tree::{Tree, TreeItem}, dialog::{FileChooser, FileChooserType}, WidgetExt};
+use fltk::{app, tree::{Tree, TreeItem}, dialog::{FileChooser, FileChooserType}};
 use smash_arc::*;
 
 use std::path::Path;

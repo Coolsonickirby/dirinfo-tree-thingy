@@ -99,7 +99,7 @@ fn main() {
     tree.set_callback2(move |tree| {
         match tree.callback_reason() {
             TreeReason::Opened => {
-                let mut path = get_path(tree.callback_item().unwrap());
+                let /* mut */ path = get_path(tree.callback_item().unwrap());
                 if let Err(_) = build_tree(arc, tree, &path, 1) {
                     build_tree(arc, tree, &path, 1).unwrap();
                 }
