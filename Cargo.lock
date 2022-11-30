@@ -24,24 +24,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "arc-browser"
-version = "0.1.1"
-dependencies = [
- "binread 2.1.1",
- "fltk",
- "humansize",
- "nus3audio",
- "nutexb",
- "prc-rs",
- "serde_yaml",
- "smash-arc",
- "smash-csb",
- "smash-sli",
- "sqb-rs",
- "ssbh_lib",
-]
-
-[[package]]
 name = "array-init"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -379,6 +361,24 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "dirinfo-browser"
+version = "0.1.1"
+dependencies = [
+ "binread 2.1.1",
+ "fltk",
+ "humansize",
+ "nus3audio",
+ "nutexb",
+ "prc-rs",
+ "serde_yaml",
+ "smash-arc",
+ "smash-csb",
+ "smash-sli",
+ "sqb-rs",
+ "ssbh_lib",
 ]
 
 [[package]]
