@@ -1,4 +1,4 @@
-# Arc Tree Thingy
+# DirInfo Tree Thingy
 
 An expiremental ArcExplorer alternative written in pure Rust.
 
